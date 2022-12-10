@@ -127,3 +127,52 @@ button:hover {
   color: #000;
   border-top: 4px solid #000;
 }
+
+/*FLOATS------FLOATS-----FLOATS*/
+.item-1,
+.item-2 {
+  width: 243px;
+  float: left;
+  margin-left: 40px;
+}
+
+img {
+  float: left;
+}
+
+.item-1 {
+  margin-top: 20px
+}
+
+.item-2 {
+  margin-top: 20px;
+}
+
+.price {
+  float: left;
+}
+
+.shiping {
+  float: right;
+  margin-top: 8px;
+}
+
+.shiping+p {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.details-title {
+  margin-top: 0;
+}
+
+/*
+.container {
+  background-color: #777;
+}
+*/
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
